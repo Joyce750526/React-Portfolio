@@ -1,13 +1,18 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+// import Resume from "./../../files/Joyce-Resume.pdf";
 
 
-function Resume() {
-  return (
-    <div>
-      <h3>ABC</h3>
-    </div>
-  )
+export default function Resume() {
+  return ( 
+    <header>
+    
+      <h3>Resume</h3>
+  
+    </header>
+    
+  );
+  
 }
 
-export default Resume
+
