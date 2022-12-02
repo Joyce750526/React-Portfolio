@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
+// import './../../styles/Footer.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-function Footer() {
+export default function Footer() {
   return (
     <div>
       <h3>Footer</h3>
@@ -10,4 +10,5 @@ function Footer() {
   )
 }
 
-export default Footer
+
+ 
