@@ -1,22 +1,34 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 export default function About() {
   return (
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, you!</h1>
-      <p class="lead">
+    <div classNameName="jumbotron">
+      <h1 className="display-4">Hello, you!</h1>
+      <p classNameName="lead">
         I'm Joyce, a student who is currently learning coding at UNH Coding Boot
         Camp. I worked on a few projects to showcase my technocial skills to a
         potential employer.
       </p>
-      <a class="btn btn-primary btn-lg" href="#portfolio" role="button">
+      <a classNameName="btn btn-primary btn-lg" href="#portfolio" role="button">
         Learn more about my work
       </a>
-
-      <hr class="my-4"></hr>
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+      <hr className="my-4"></hr>
       <div align="left">
-        <div class="card">
-          <div class="card-body"></div>
+        <div className="card">
+          <div className="card-body"></div>
           <h3>My Journey...</h3>
           <p>
             Hello, I'm Joyce. I'm original from Taipei city, Taiwan. Joyce Chen

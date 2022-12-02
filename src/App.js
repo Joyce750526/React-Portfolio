@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer" 
 
 
-const App = () => <PortfolioContainer />;
+export default function App (){return <PortfolioContainer />} ;
 
 // function App() {
 //   return (
@@ -40,4 +40,3 @@ const App = () => <PortfolioContainer />;
 //   );
 // }
 
-export default App;

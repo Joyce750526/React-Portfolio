@@ -30,6 +30,8 @@ body {
   color: var(--color-light);
   line-height: 1.7;
   background-image: url(../src/files/hamish-weir-aYEUXnVG8tg-unsplash.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;

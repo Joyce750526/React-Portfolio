@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.295fcdfc.css",
+    "main.js": "/React-Portfolio/static/js/main.e2617faa.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/aboutme.jpg": "/React-Portfolio/static/media/aboutme.d2726277294700364586.jpg",
+    "static/media/W5-crazy-work-scheduler.png": "/React-Portfolio/static/media/W5-crazy-work-scheduler.b9dd1bcbf9883b3d5c46.png",
+    "static/media/hamish-weir-aYEUXnVG8tg-unsplash.jpg": "/React-Portfolio/static/media/hamish-weir-aYEUXnVG8tg-unsplash.3aede1f51f301062a050.jpg",
+    "static/media/home-image.jpg": "/React-Portfolio/static/media/home-image.d6cf2a054abcc25eb11b.jpg",
+    "static/media/P1-lyrictionary.png": "/React-Portfolio/static/media/P1-lyrictionary.bca5ad83871ba7c8dec8.png",
+    "static/media/W13-ORM-business-backend-platform.png": "/React-Portfolio/static/media/W13-ORM-business-backend-platform.32d3dd7b748d293b8137.png",
+    "static/media/P2-TAC.jpg": "/React-Portfolio/static/media/P2-TAC.679aa965812a83c5b737.jpg",
+    "static/media/W12-SQL-employee-tracker.png": "/React-Portfolio/static/media/W12-SQL-employee-tracker.e8fcc9cfd7ece6150e4e.png",
+    "static/media/bridge.jpg": "/React-Portfolio/static/media/bridge.5dde0a67478072fc0fcc.jpg",
+    "static/media/W10-team-profile-generator.png": "/React-Portfolio/static/media/W10-team-profile-generator.1bf7d595100afa1aa555.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.295fcdfc.css.map": "/React-Portfolio/static/css/main.295fcdfc.css.map",
+    "main.e2617faa.js.map": "/React-Portfolio/static/js/main.e2617faa.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.295fcdfc.css",
+    "static/js/main.e2617faa.js"
+  ]
+}
