@@ -10,7 +10,7 @@ export default function Resume() {
         <div className="container text-left">
           {/* Section */}
           <div className="col-lg-12">
-            <h3>Education</h3>
+            <h3 style={{ fontWeight: "normal" }}>Education</h3>
             <ul>
               <li>B.F.A. Interior Architecture & Design | May 2018</li>
               <li>Academy of Art University, San Francisco, CA</li>
@@ -23,9 +23,9 @@ export default function Resume() {
 
           {/* Section */}
           <div className="col-lg-12">
-            <h3>Career Path</h3>
+            <h3 style={{ fontWeight: "normal" }}>Career Path</h3>
+
             <h6 style={{ fontWeight: "bold" }}>
-              {" "}
               University of New Hampshire • Full StackCoding BootCamp | 24 Weeks
             </h6>
             <ul>
@@ -42,22 +42,8 @@ export default function Resume() {
                 complex logical conditions
               </li>
               <li>Learning towards a goal to create a complex team project</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>JQuery</li>
-              <li>Bootstrap</li>
-              <li>React</li>
-              <h3>Back End</h3>
-              <li>APIs</li>
-              <li>Express.js</li>
-              <li>Node.js</li>
-              <li>MySQL | Sequelize</li>
-              <li>Mongo | Mongoose</li>
-             
             </ul>
             <h6 style={{ fontWeight: "bold" }}>
-              {" "}
               The Tech Foundry | IT Live Course | 16 Weeks
             </h6>
             <ul>
@@ -79,7 +65,6 @@ export default function Resume() {
               </li>
             </ul>
             <h6 style={{ fontWeight: "bold" }}>
-              {" "}
               ELVTR | UX Live Course | 12 Weeks
             </h6>
             <ul>
@@ -116,7 +101,7 @@ export default function Resume() {
 
           {/* Section */}
           <div className="col-lg-12">
-            <h3>Work Experience</h3>
+            <h3 style={{ fontWeight: "normal" }}>Work Experience</h3>
             <h6 style={{ fontWeight: "bold" }}>IT Internship • Tech Foundry</h6>
             <ul>
               <li>Reviewed 30 weeks Google IT courses for Tech Foundry</li>
@@ -137,7 +122,7 @@ export default function Resume() {
             <ul>
               <li>
                 Familiar with city submittal process for residential and
-                commercial permit{" "}
+                commercial permit
               </li>
               <li>
                 Onsite measuring for projects, creating floor plan and
@@ -185,10 +170,15 @@ export default function Resume() {
                 to meet DSA requirements
               </li>
             </ul>
-            <h6 style={{ fontWeight: "bold" }}>Technical Skills</h6>
+            <h3 style={{ fontWeight: "normal" }}>Technical Skills</h3>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Front-End: HTML, CSS, JavaScript, JQuery, Bootstrap, React</li>
-              <li class="list-group-item">Back-End: MySQL | Sequelize, Mongo | Mongoose, Express.js, Node.js, APIs</li>
+              <li class="list-group-item">
+                Front-End: HTML, CSS, JavaScript, JQuery, Bootstrap, React
+              </li>
+              <li class="list-group-item">
+                Back-End: MySQL | Sequelize, Mongo | Mongoose, Express.js,
+                Node.js, APIs
+              </li>
             </ul>
           </div>
         </div>
@@ -196,6 +186,3 @@ export default function Resume() {
     </div>
   );
 }
-
-
- 
