@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Footer() {
   return (
     <div>
-      <h3>Footer</h3>
+      <p align="center">Footer</p>
     </div>
   )
 }
