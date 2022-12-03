@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Project1 from "../files/P1-lyrictionary.png";
-import Project2 from "../files/P2-TAC.jpg";
+import Project2 from "../files/P2-TAC.png";
 import Challenge5 from "../files/W5-crazy-work-scheduler.png";
 import Challenge10 from "../files/W10-team-profile-generator.png";
 import Challenge12 from "../files/W12-SQL-employee-tracker.png";

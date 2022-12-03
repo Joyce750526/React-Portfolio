@@ -28,9 +28,9 @@ body {
     sans-serif;
   background: var(--color-light);
   color: var(--color-light);
-  line-height: 1.7;
-  background-image: url(../src/files/hamish-weir-aYEUXnVG8tg-unsplash.jpg);
-  background-size:cover;
+  line-height: 3;
+  background-image: url(../src/files/homepage.png);
+  background-size: cover;
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,7 +41,8 @@ section > h1,
 section > h2 {
   text-align: left;
   color: var(--color--smokyblue);
-  margin-bottom: 5rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 a {
   color: var(--color-primary);
@@ -49,25 +50,25 @@ a {
 }
 .btn {
   width: max-content;
-  display: inline-block;
+  display: flexbox;
   color: var(--color-primary);
-  padding: 5px;
-  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
   cursor: pointer;
   border: 1px dashed var(--color-primary);
 }
 img {
-  display: block;
-  width: 100%;
+  display: flexbox;
+  width: 75%;
   object-fit: cover;
+  border-radius: 20px;
 }
 
-@media screen and (max-width:1024px) {
-  .container{
-    width:var(--container-width-lg);
-    
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
   }
-  
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
