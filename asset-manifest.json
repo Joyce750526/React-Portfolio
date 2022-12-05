@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.295fcdfc.css",
-    "main.js": "/React-Portfolio/static/js/main.e2617faa.js",
+    "main.css": "/React-Portfolio/static/css/main.342d3617.css",
+    "main.js": "/React-Portfolio/static/js/main.10ad84a3.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/aboutme.jpg": "/React-Portfolio/static/media/aboutme.d2726277294700364586.jpg",
-    "static/media/W5-crazy-work-scheduler.png": "/React-Portfolio/static/media/W5-crazy-work-scheduler.b9dd1bcbf9883b3d5c46.png",
-    "static/media/hamish-weir-aYEUXnVG8tg-unsplash.jpg": "/React-Portfolio/static/media/hamish-weir-aYEUXnVG8tg-unsplash.3aede1f51f301062a050.jpg",
-    "static/media/home-image.jpg": "/React-Portfolio/static/media/home-image.d6cf2a054abcc25eb11b.jpg",
-    "static/media/P1-lyrictionary.png": "/React-Portfolio/static/media/P1-lyrictionary.bca5ad83871ba7c8dec8.png",
-    "static/media/W13-ORM-business-backend-platform.png": "/React-Portfolio/static/media/W13-ORM-business-backend-platform.32d3dd7b748d293b8137.png",
-    "static/media/P2-TAC.jpg": "/React-Portfolio/static/media/P2-TAC.679aa965812a83c5b737.jpg",
-    "static/media/W12-SQL-employee-tracker.png": "/React-Portfolio/static/media/W12-SQL-employee-tracker.e8fcc9cfd7ece6150e4e.png",
-    "static/media/bridge.jpg": "/React-Portfolio/static/media/bridge.5dde0a67478072fc0fcc.jpg",
-    "static/media/W10-team-profile-generator.png": "/React-Portfolio/static/media/W10-team-profile-generator.1bf7d595100afa1aa555.png",
+    "static/media/aboutme.png": "/React-Portfolio/static/media/aboutme.ec85e52e9c925699cab2.png",
+    "static/media/snow.png": "/React-Portfolio/static/media/snow.5e4eb5a569d0ab62933c.png",
+    "static/media/homepage.png": "/React-Portfolio/static/media/homepage.0e55f5bfd724ca2a9e60.png",
+    "static/media/gouache.png": "/React-Portfolio/static/media/gouache.590f6a45138915c10db7.png",
+    "static/media/P2-TAC.png": "/React-Portfolio/static/media/P2-TAC.f4b589488767213fd2d4.png",
+    "static/media/bridge.png": "/React-Portfolio/static/media/bridge.47777efb010c2aabb801.png",
+    "static/media/P1-lyrictionary.png": "/React-Portfolio/static/media/P1-lyrictionary.b9c08fb21b86f5cd44d2.png",
+    "static/media/W13-ORM-business-backend-platform.png": "/React-Portfolio/static/media/W13-ORM-business-backend-platform.64c49d24228544242c5b.png",
+    "static/media/W12-SQL-employee-tracker.png": "/React-Portfolio/static/media/W12-SQL-employee-tracker.03da92e2e8c972c79581.png",
+    "static/media/W5-crazy-work-scheduler.png": "/React-Portfolio/static/media/W5-crazy-work-scheduler.41f2fe89c7e1a8f6e5a1.png",
+    "static/media/W10-team-profile-generator.png": "/React-Portfolio/static/media/W10-team-profile-generator.d08f12c9979851ba4250.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.295fcdfc.css.map": "/React-Portfolio/static/css/main.295fcdfc.css.map",
-    "main.e2617faa.js.map": "/React-Portfolio/static/js/main.e2617faa.js.map",
+    "main.342d3617.css.map": "/React-Portfolio/static/css/main.342d3617.css.map",
+    "main.10ad84a3.js.map": "/React-Portfolio/static/js/main.10ad84a3.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.295fcdfc.css",
-    "static/js/main.e2617faa.js"
+    "static/css/main.342d3617.css",
+    "static/js/main.10ad84a3.js"
   ]
 }
