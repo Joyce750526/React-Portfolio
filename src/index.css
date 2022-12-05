@@ -1,21 +1,25 @@
 * {
-  margin: 0;
+  margin-left: 3px;
   padding: 0;
-  border: 0;
+  border: 5px;
   outline: 0;
-  box-sizing: border-box;
   list-style: none;
+  box-sizing: border-box;
   text-decoration: none;
+}
+
+nav {
+  margin-left: 3px;
+  margin-bottom: 3px;
 }
 
 :root {
   --color-bg: rgba(41, 38, 50, 0.898);
   --color-bg-variant: rgba(67, 63, 63, 0.898);
-  --color-primary: #4db5ff;
+  --color-primary: #4280adb9;
   --color-primary: rgba(77, 181, 50, 255.4);
   --color-smokyblue: rgb(77, 92, 107);
   --color-light: rgba(255, 255, 255, 0.6);
-
   --container-width-lg: 100%;
   --container-width-md: 85%;
   --container-width-ms: 90%;
@@ -23,14 +27,18 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  padding: 0;
+  border-radius: 3px;
+  line-height: 2px;
+  color: rgb(52, 28, 65);
+  text-decoration: none;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  background: var(--color-light);
-  color: var(--color-light);
-  line-height: 3;
-  background-image: url(../src/files/homepage.png);
+    sans-serif; */
+  background: var(--color-bg-variant);
+  /* color: var(--color-light); */
   background-size: cover;
+  background-image: url(../src/files/homepage.png);
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,31 +46,35 @@ body {
 }
 
 section > h1,
-section > h2 {
+section > h2,
+section > h3{
   text-align: left;
-  color: var(--color--smokyblue);
-  margin-top: 10px;
-  margin-bottom: 5px;
+  color: var(--color--light);
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
 }
+
 a {
-  color: var(--color-primary);
+  color: var(--color-bg-variant);
   transition: var(--transition);
 }
+
 .btn {
+  margin: 0;
+  padding: 3px;
   width: max-content;
   display: flexbox;
-  color: var(--color-primary);
-  padding: 10px;
-  margin: 10px;
+  border: 1px dashed var(--color-primary);
+  color: var(--color-smokyblue);
   border-radius: 10px;
   cursor: pointer;
-  border: 1px dashed var(--color-primary);
 }
+
 img {
-  display: flexbox;
-  width: 75%;
-  object-fit: cover;
+  width: 100%;
+  display: inline-flexbox;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -70,6 +82,7 @@ img {
     width: var(--container-width-lg);
   }
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

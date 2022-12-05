@@ -9,8 +9,12 @@ import HomePage4 from "../files/gouache.png";
 
 export default function About() {
   return (
-    <div className="jumbotron" >
-      <h1 className="display-4">Hello, you!</h1>
+    <div className="jumbotron">
+      <br />
+      <br />
+      <h3 align="center">Chao Ying Chen</h3>
+      <p align="center">Full-Stack Web Developer • Interior Designer</p>
+      {/* <h1 className="display-4">Hello, you!</h1> */}
       {/* <p className="lead">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -29,8 +33,6 @@ export default function About() {
       <Container className="h-100 pb-5">
         <Row className="justify-content-center align-items-center">
           <Carousel className="col-sm-9 col-lg-6">
-
-
             {/* Slide 1 */}
             <Carousel.Item>
               <img
@@ -39,7 +41,7 @@ export default function About() {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h4>1 • Creativity</h4>
+                <h5>1 • Creativity</h5>
                 <p>I have a lot of ideas!</p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -53,7 +55,7 @@ export default function About() {
               />
 
               <Carousel.Caption>
-                <h4>2 • Fake influencer</h4>
+                <h5>2 • Fake influencer</h5>
                 <p>At "Made In L.A. Wall"</p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -67,8 +69,8 @@ export default function About() {
               />
 
               <Carousel.Caption>
-                <h4>3 • Just wanna lay down</h4>
-                <p>Snow days...</p>
+                <h5>3 • Just wanna lay down</h5>
+                <p>Snow days + Coding days...</p>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -79,10 +81,10 @@ export default function About() {
                 src={HomePage4}
                 alt="Forth slide"
               />
-              
+
               <Carousel.Caption>
-                <h4>4 • Self Painting</h4>
-                <p>I used to paint...</p>
+                <h5>4 • Painting w/ gouache</h5>
+                <p>I used to paint...myself </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

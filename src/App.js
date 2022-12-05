@@ -1,42 +1,44 @@
-import React from "react";
-import './App.css';
-import PortfolioContainer from "./components/PortfolioContainer";
+import React, { useState } from "react";
+import "./App.css";
 import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer" 
 
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState("Home");
 
-export default function App (){return <PortfolioContainer />} ;
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === "Home") {
+      return <Home />;
+    }
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
+    return <Contact />;
+  };
 
-// function App() {
-//   return (
-//     <div className="App">
-  
-//     <Nav /> 
-//     {/* import pages here
-//       About
-//       Projects
-//       Resume
-//       Contact Form
-//     */}
+  const handlePageChange = (page) => setCurrentPage(page);
 
-//     <Home />
-
-//     <About />
-
-//     <Portfolio /> 
-
-//     <Resume /> 
-
-//     <Contact /> 
-
-//     <Footer />
-//     <p align="center">Chao-Ying Chen</p>
-//     </div>
-//   );
-// }
-
+  return (
+    <div>
+      <Header />
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+      <Footer />
+    </div>
+  );
+}
