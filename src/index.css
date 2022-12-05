@@ -1,7 +1,5 @@
 * {
-  margin-left: 3px;
-  padding: 0;
-  border: 5px;
+  margin-left: 2px;
   outline: 0;
   list-style: none;
   box-sizing: border-box;
@@ -11,6 +9,7 @@
 nav {
   margin-left: 3px;
   margin-bottom: 3px;
+  color: var(--color-smokyblue);
 }
 
 :root {
@@ -28,16 +27,15 @@ nav {
 body {
   margin: 0;
   padding: 0;
-  border-radius: 3px;
+  /* border-radius: 5px; */
   line-height: 2px;
-  color: rgb(52, 28, 65);
   text-decoration: none;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  background: var(--color-bg-variant);
   /* color: var(--color-light); */
   background-size: cover;
+  background-color: slategrey;
   background-image: url(../src/files/homepage.png);
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
@@ -47,11 +45,13 @@ body {
 
 section > h1,
 section > h2,
-section > h3{
-  text-align: left;
-  color: var(--color--light);
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
+section > h3,
+section > h4,
+section > h6 {
+  /* text-align: center; */
+  color: var(--color-light);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -61,19 +61,19 @@ a {
 
 .btn {
   margin: 0;
-  padding: 3px;
+  padding: 0;
   width: max-content;
   display: flexbox;
   border: 1px dashed var(--color-primary);
   color: var(--color-smokyblue);
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 img {
   width: 100%;
-  display: inline-flexbox;
-  border-radius: 20px;
+  display: block;
+  border-radius: 40px;
   object-fit: cover;
 }
 
