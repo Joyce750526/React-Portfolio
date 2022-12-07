@@ -1,5 +1,5 @@
 import React from "react";
-
+// import Photo from "../files/aboutme.png";
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
@@ -58,8 +58,32 @@ function Nav({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+
+      {/* Round Shape Photo */}
+     
+     {/* <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange("About")}
+          src={Photo}
+          alt="Me"
+          style={{ width: 50, height: 50, borderRadius: 50 / 2 }}
+        > */}
+          {/* // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link */}
+          {/* <img
+            src={AboutMe}
+            alt="Me"
+            style={{ width: 50, height: 50, borderRadius: 50 / 2 }}
+            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+          >
+            {" "}
+          </img>
+        </a>
+      </li> */}
+
+
     </ul>
   );
 }
-
+//  <img src={AboutMe} alt="Project 1" style={{width: 50, height: 50, borderRadius: 50/ 2}} ></img>
 export default Nav;

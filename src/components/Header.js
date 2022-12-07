@@ -1,7 +1,7 @@
 import React from "react";
+// import AboutMe from "../files/aboutme.png";
 // import Button from "react-bootstrap/Button";
 // import Card from "react-bootstrap/Card";
-// import Nav from "../components/Nav";
 // import About from "../pages/About";
 // import Portfolio from "../pages/Portfolio";
 // import Resume from "../pages/Resume";
@@ -11,7 +11,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Header.css";
 
 export default function Header() {
-  return <p />;
+  return <p/>
+  ;
 }
 
 // Save Codes for later
@@ -26,3 +27,6 @@ export default function Header() {
 //     </Card.Text>
 //   </Card.Body>
 // </Card>
+
+
+// <img src={AboutMe} alt="Project 1" style={{width: 50, height: 50, borderRadius: 50/ 2}} ></img> //
