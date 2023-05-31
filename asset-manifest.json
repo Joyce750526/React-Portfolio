@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0e7db62.css",
-    "main.js": "/static/js/main.d59fac46.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/aboutme.png": "/static/media/aboutme.ec85e52e9c925699cab2.png",
-    "static/media/snow.png": "/static/media/snow.5e4eb5a569d0ab62933c.png",
-    "static/media/homepage.png": "/static/media/homepage.0e55f5bfd724ca2a9e60.png",
-    "static/media/gouache.png": "/static/media/gouache.590f6a45138915c10db7.png",
-    "static/media/P2-TAC.png": "/static/media/P2-TAC.f4b589488767213fd2d4.png",
-    "static/media/bridge.png": "/static/media/bridge.47777efb010c2aabb801.png",
-    "static/media/P1-lyrictionary.png": "/static/media/P1-lyrictionary.b9c08fb21b86f5cd44d2.png",
-    "static/media/W13-ORM-business-backend-platform.png": "/static/media/W13-ORM-business-backend-platform.64c49d24228544242c5b.png",
-    "static/media/W12-SQL-employee-tracker.png": "/static/media/W12-SQL-employee-tracker.03da92e2e8c972c79581.png",
-    "static/media/W5-crazy-work-scheduler.png": "/static/media/W5-crazy-work-scheduler.41f2fe89c7e1a8f6e5a1.png",
-    "static/media/W10-team-profile-generator.png": "/static/media/W10-team-profile-generator.d08f12c9979851ba4250.png",
-    "index.html": "/index.html",
-    "main.c0e7db62.css.map": "/static/css/main.c0e7db62.css.map",
-    "main.d59fac46.js.map": "/static/js/main.d59fac46.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.d1959cad.css",
+    "main.js": "/React-Portfolio/static/js/main.af2d4840.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/aboutme.png": "/React-Portfolio/static/media/aboutme.ec85e52e9c925699cab2.png",
+    "static/media/snow.png": "/React-Portfolio/static/media/snow.5e4eb5a569d0ab62933c.png",
+    "static/media/homepage.png": "/React-Portfolio/static/media/homepage.0e55f5bfd724ca2a9e60.png",
+    "static/media/gouache.png": "/React-Portfolio/static/media/gouache.590f6a45138915c10db7.png",
+    "static/media/P2-TAC.png": "/React-Portfolio/static/media/P2-TAC.f4b589488767213fd2d4.png",
+    "static/media/bridge.png": "/React-Portfolio/static/media/bridge.47777efb010c2aabb801.png",
+    "static/media/P1-lyrictionary.png": "/React-Portfolio/static/media/P1-lyrictionary.b9c08fb21b86f5cd44d2.png",
+    "static/media/W13-ORM-business-backend-platform.png": "/React-Portfolio/static/media/W13-ORM-business-backend-platform.64c49d24228544242c5b.png",
+    "static/media/W12-SQL-employee-tracker.png": "/React-Portfolio/static/media/W12-SQL-employee-tracker.03da92e2e8c972c79581.png",
+    "static/media/W5-crazy-work-scheduler.png": "/React-Portfolio/static/media/W5-crazy-work-scheduler.41f2fe89c7e1a8f6e5a1.png",
+    "static/media/W10-team-profile-generator.png": "/React-Portfolio/static/media/W10-team-profile-generator.d08f12c9979851ba4250.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.d1959cad.css.map": "/React-Portfolio/static/css/main.d1959cad.css.map",
+    "main.af2d4840.js.map": "/React-Portfolio/static/js/main.af2d4840.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0e7db62.css",
-    "static/js/main.d59fac46.js"
+    "static/css/main.d1959cad.css",
+    "static/js/main.af2d4840.js"
   ]
 }
