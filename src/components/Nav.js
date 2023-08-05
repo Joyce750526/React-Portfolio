@@ -1,13 +1,22 @@
 import React from "react";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Navbar, NavDropdown, Container } from "react-bootstrap";
+
+// // import Navbar from "react-bootstrap/Navbar";
+// import NavDropdown from "react-bootstrap/NavDropdown";
+// // import Collapse from "react-bootstrap/Collapse";
+// import Container from "react-bootstrap/Container";
 
 // import Photo from "../files/aboutme.png";
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <Navbar expand="lg">
+      <Container>
+        {/* <Navbar.Brand href="#home">Hello!</Navbar.Brand> */}
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+
+        {/* <Nav className="ms-auto"> */}
         {/* -----HOME TAB----- */}
         <a
           href="#home"
@@ -18,9 +27,9 @@ function Nav({ currentPage, handlePageChange }) {
         >
           Home
         </a>
-      </li>
-      {/* -----ABOUT TAB----- */}
-      <li className="nav-item">
+
+        {/* -----ABOUT TAB----- */}
+
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
@@ -29,13 +38,12 @@ function Nav({ currentPage, handlePageChange }) {
         >
           About
         </a>
-      </li>
 
-      {/* -----PORTFOLIO TAB----- */}
+        {/* -----PORTFOLIO TAB----- */}
 
-      {/* Projects Dropdown Group */}
-      <NavDropdown title="Projects" id="basic-nav-dropdown">
-        {/* <a
+        {/* Projects Dropdown Group */}
+        <NavDropdown title="Projects" id="basic-nav-dropdown">
+          {/* <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -45,44 +53,73 @@ function Nav({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a> */}
-        {/* -----Projects Dropdown Sub Group----- */}
+          {/* -----Projects Dropdown Sub Group----- */}
+          <NavDropdown.Item href="#action/3.3">Solo Projects</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action/3.3">Group Projects</NavDropdown.Item>
+        </NavDropdown>
 
-        <NavDropdown.Item href="#action/3.3">Solo Projects</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.3">
-          Projects Projects
-        </NavDropdown.Item>
-      </NavDropdown>
+        {/* -----INTERIOR DESIGN TAB----- */}
 
-      {/* -----INTERIOR DESIGN TAB----- */}
-
-      {/* Projects Dropdown Group */}
-      <NavDropdown title="Interior Design" id="basic-nav-dropdown">
-        {/* <a
-          href="#portfolio"
-          onClick={() => handlePageChange("Portfolio")}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+        <NavDropdown
+          title="Interior Design"
+          id="basic-nav-dropdown"
           className={
-            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            currentPage === "Interior Design" ? "nav-link active" : "nav-link"
           }
         >
-          Portfolio
-        </a> */}
-        {/* -----Residential Projects Dropdown Sub Group----- */}
+          {/* -----Interior Design Projects Dropdown Sub Group----- */}
+          <NavDropdown.Item href="#action/3.1">
+            Residential Projects
+          </NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action/3.2">
+            Commercial Projects
+          </NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action/3.3">
+            School Projects
+          </NavDropdown.Item>
+        </NavDropdown>
 
-        <NavDropdown.Item href="#action/3.1">
-          Residential Projects
-        </NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.2">
-          Commercial Projects
-        </NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.3">School Projects</NavDropdown.Item>
-      </NavDropdown>
+        {/* -----CREATIVITY COLLECTION TAB----- */}
 
-      {/* -----CONTACT TAB----- */}
-      <li className="nav-item">
+        <NavDropdown
+          title="Creativity Collection"
+          id="basic-nav-dropdown"
+          className={
+            currentPage === "Creativity Collection"
+              ? "nav-link active"
+              : "nav-link"
+          }
+        >
+          {/* -----Creativity Collection Projects Dropdown Sub Group----- */}
+
+          <NavDropdown.Item href="#action/3.1">Art Painting</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action/3.2">
+            Digital Publishing
+          </NavDropdown.Item>
+        </NavDropdown>
+
+        {/* -----PHOTOGRAPHY COLLECTION TAB----- */}
+
+        <NavDropdown
+          title="Photography"
+          id="basic-nav-dropdown"
+          className={
+            currentPage === "Photography" ? "nav-link active" : "nav-link"
+          }
+        >
+          {/* -----Photography Collection Projects Dropdown Sub Group----- */}
+
+          <NavDropdown.Item href="#action/3.1">Canon</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action/3.2">iPhone</NavDropdown.Item>
+        </NavDropdown>
+
+        {/* -----CONTACT TAB----- */}
+
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -91,18 +128,10 @@ function Nav({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
-      {/* <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange("Contact")} */}
-      {/* // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"} */}
-      {/* >
-          Contact
-        </a>
-      </li> */}
-    </ul>
+
+        {/* </Nav> */}
+      </Container>
+    </Navbar>
   );
 }
 export default Nav;
