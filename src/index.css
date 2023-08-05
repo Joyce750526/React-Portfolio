@@ -4,6 +4,7 @@
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
+  background-color: rgb(179, 130, 130);
 }
 
 nav {
@@ -36,7 +37,7 @@ body {
   /* color: var(--color-light); */
   background-size: cover;
   background-color: slategrey;
-  background-image: url(../src/files/homepage.png);
+  /* background-image: url(../src/files/homepage.png); */
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

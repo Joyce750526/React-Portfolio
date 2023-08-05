@@ -11,6 +11,7 @@ export default function About() {
       </p> */}
       <br />
       <div className="my-4"></div>
+      
       <div align="left">
         <h4>My Journey...</h4>
         <p className="center">
