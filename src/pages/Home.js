@@ -6,6 +6,7 @@ import HomePage1 from "../files/bridge.png";
 import HomePage2 from "../files/aboutme.png";
 import HomePage3 from "../files/snow.png";
 import HomePage4 from "../files/gouache.png";
+import "../styles/Home.css"; 
 
 export default function About() {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Resume.css"; 
 // import Card from "react-bootstrap/Card";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import Resume from "./../../files/Joyce-Resume.pdf";

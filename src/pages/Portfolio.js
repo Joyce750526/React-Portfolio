@@ -6,6 +6,8 @@ import Challenge5 from "../files/W5-crazy-work-scheduler.png";
 import Challenge10 from "../files/W10-team-profile-generator.png";
 import Challenge12 from "../files/W12-SQL-employee-tracker.png";
 import Challenge13 from "../files/W13-ORM-business-backend-platform.png";
+import "../styles/Portfolio.css"; 
+
 export default function Portfolio() {
   return (
     <div class="card text-center">

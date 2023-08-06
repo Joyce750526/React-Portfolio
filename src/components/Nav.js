@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, NavDropdown, Container } from "react-bootstrap";
+import "../styles/Nav.css"; 
 
 function Nav({ currentPage, handlePageChange }) {
   return (
@@ -9,7 +10,7 @@ function Nav({ currentPage, handlePageChange }) {
         <Navbar.Toggle className="ml-auto" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <ul className="navbar-nav ms-auto">
-            {/* -----HOME TAB----- */}
+            {/* -----HOME TAB----- */} 
 
             <li className="nav-item">
               <a
