@@ -1,41 +1,37 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/About.css"; 
+import "../styles/About.css";
 
 export default function About() {
   return (
-    <div classNameName="jumbotron">
-      <text className="display-4"></text>
-      {/* <p classNameName="lead">
+    <div className="jumbotron">
+      {/* <text className="display-4"></text> */}
+      {/* <p className="lead">
         I'm Joyce, a student who is currently learning coding at UNH Coding Boot
         Camp. I worked on a few projects to showcase my technocial skills to a
         potential employer.
       </p> */}
       <br />
       <div className="my-4"></div>
-      
+
       <div align="left">
         <h4>My Journey...</h4>
         <p className="center">
-          Hello, I'm Joyce. I'm original from Taipei city, Taiwan.
-
-
-   
-        
-          My passion was to help people create a welcoming home.
-          that can reflect their personalities and make their visions come true.
-          I completed my degree in interior and architectural design in 2018 and
-          soon started her professional career in an architectural firm right
-          after an internship. I learned a lot from my professional work to be
+          Hello, I'm Joyce. I'm original from Taipei city, Taiwan. My passion
+          was to help people create a welcoming home. that can reflect their
+          personalities and make their visions come true. I completed my degree
+          in interior and architectural design in 2018 and soon started her
+          professional career in an architectural firm right after an
+          internship. I learned a lot from my professional work to be
           detail-oriented, a problem solver, time manager and an accountable
           person.
         </p>
         <p>
-          Later, I found myself falling in love with technology, and I truly desire
-          to be a programmer. I am taking every step to achieve my career goal
-          in a huge career switch by attending an online program for IT training
-          and a Full-Stack web development Boot Camp at University of New
-          Hampshire.
+          Later, I found myself falling in love with technology, and I truly
+          desire to be a programmer. I am taking every step to achieve my career
+          goal in a huge career switch by attending an online program for IT
+          training and a Full-Stack web development Boot Camp at University of
+          New Hampshire.
         </p>
         <p>
           I keeps learning English, thanks to The Accelerated Career English
