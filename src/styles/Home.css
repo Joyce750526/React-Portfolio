@@ -17,4 +17,5 @@
 
 .hero-container p {
   font-size: 1.5rem; /* Adjust the font size for the p element */
+  font-style: bold;
 }
