@@ -1,5 +1,5 @@
 h1 {
-    font-size: 9rem;
+    font-size: 20px;
     font-family: Syne, sans-serif;
     color: white;
     text-shadow: 0 0 30px black;
@@ -8,7 +8,7 @@ h1 {
   }
   
   p {
-    font-size: 2rem;
+    font-size: 20px;
   }
   
   /* div {
@@ -22,7 +22,7 @@ h1 {
   } */
   
   li {
-    padding: 0 2rem;
+    padding: 3px;
   }
   
   i {

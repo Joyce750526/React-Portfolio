@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -38,7 +38,7 @@ export default function PortfolioContainer() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

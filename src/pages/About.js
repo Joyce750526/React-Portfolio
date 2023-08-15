@@ -1,6 +1,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/About.css";
+import Carousel from "react-bootstrap/Carousel";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import AboutPage1 from "../files/bridge.png";
+import AboutPage2 from "../files/aboutme.png";
+import AboutPage3 from "../files/snow.png";
+import AboutPage4 from "../files/gouache.png";
 
 export default function About() {
   return (
@@ -12,6 +19,66 @@ export default function About() {
         potential employer.
       </p> */}
       <br />
+      <Container className="h-100 pb-5">
+        <Row className="justify-content-center align-items-center">
+          <Carousel className="col-sm-9 col-lg-6">
+            {/* Slide 1 */}
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={AboutPage1}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h5>1 • Creativity</h5>
+                <p>I have a lot of ideas!</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            {/* Silde 2 */}
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={AboutPage2}
+                alt="Second slide"
+              />
+
+              <Carousel.Caption>
+                <h5>2 • Fake influencer</h5>
+                <p>At "Made In L.A. Wall"</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            {/* Slide 3 */}
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={AboutPage3}
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                <h5>3 • Just wanna lay down</h5>
+                <p>Snow days + Coding days...</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            {/* Slide 4 */}
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={AboutPage4}
+                alt="Forth slide"
+              />
+
+              <Carousel.Caption>
+                <h5>4 • Painting w/ gouache</h5>
+                <p>I used to paint...myself </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Row>
+      </Container>
       <div className="my-4"></div>
 
       <div align="left">

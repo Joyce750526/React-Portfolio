@@ -3,15 +3,23 @@ import { Navbar, NavDropdown, Container } from "react-bootstrap";
 import "../styles/Nav.css";
 
 function Nav({ currentPage, handlePageChange }) {
+  const handleBrandClick = () => {
+    // Close the navbar toggle when clicking on "Joyce Chen" link
+    const nav = document.getElementById("basic-navbar-nav");
+    if (nav.classList.contains("show")) {
+      nav.classList.remove("show");
+    }
+  };
   return (
     <Navbar expand="lg" className="navbar-dark">
       <Container>
-        <Navbar.Brand href="#home">Joyce Chen</Navbar.Brand>
+        <Navbar.Brand href="#home" onClick={handleBrandClick}>
+          Joyce Chen
+        </Navbar.Brand>
         <Navbar.Toggle className="ml-auto" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <ul className="navbar-nav ms-auto">
             {/* -----HOME TAB----- */}
-
             <li className="nav-item">
               <a
                 href="#home"
