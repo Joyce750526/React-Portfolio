@@ -1,21 +1,55 @@
 /* In your Home.css file */
 
 .home-container {
-  display: flex;
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
-  height: 100vh; /* Set container height to full viewport height */
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* Set container height to full viewport height */
+    padding: 20px; /* Add padding to prevent content from being too close to the edges */
+    box-sizing: border-box; /* Include padding in container's dimensions */
+  }
+  
+  .hero-container {
+    text-align: center; /* Center text horizontally within the container */
+  }
+  
+  .hero-container h1 {
+    font-size: 80PX; /* Adjust the font size for the h1 element */
+    margin: 5px; /* Remove margin and padding */
+padding-bottom: 10px;  
 }
-
-.hero-container {
-  text-align: center; /* Center text horizontally within the container */
-}
-
-.hero-container h1 {
-  font-size: 3rem; /* Adjust the font size for the h1 element */
-}
-
-.hero-container p {
-  font-size: 1.5rem; /* Adjust the font size for the p element */
-  font-style: bold;
-}
+  
+  .hero-container p {
+    font-size: 1.5rem; /* Adjust the font size for the p element */
+    font-weight: bold;
+    color: rgb(224, 176, 65);
+  }
+  
+  /* Apply color to specific words */
+  .hero-container .typed span.typed-item-1 {
+    color: blue; /* Change color for "Web Developer" */
+  }
+  
+  .hero-container .typed span.typed-item-2 {
+    color: green; /* Change color for "Interior Designer" */
+  }
+  
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .hero-container h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .hero-container p {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  }     
+  img {
+    font-size: 30px;
+    color: chocolate;
+  }
